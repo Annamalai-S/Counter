@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	text-align: center;
+}
+label{
+	color:yellow;
+}
+#result{
+	color:purple;
+	margin:auto;
+	vertical-align:middle;
+	text-align:center;
+}
+@media(min-width:320px){
+	.container{
+		margin-top:30%;
+	}
+	label{
+		font-size:3em;
+		font-weight:400;
+	}
+	#result{
+		height:10vh;
+		width:13vw;
+		font-size:8vh;
+		font-weight: 400;
+	}
+	button{
+		font-size: 1.3em;
+		margin:15px;
+		height:4vh;
+		width:15vw;
+	}
+}
+@media(min-width:556px){
+	.container{
+		margin-top:30%;
+	}
+	label{
+		font-size:3em;
+		font-weight:400;
+	}
+	#result{
+		height:10vh;
+		width:13vw;
+		font-size:8vh;
+		font-weight: 400;
+	}
+	button{
+		font-size: 1.3em;
+		margin:15px;
+		height:4vh;
+		width:15vw;
+	}
+}
+@media(min-width:768px){
+	.container{
+		margin-top:25%;
+	}
+	label{
+		font-size:3.5em;
+		font-weight:400;
+	}
+	#result{
+		height:12vh;
+		width:15vw;
+		font-size:9vh;
+		font-weight: 400;
+	}
+	button{
+		font-size:1.5em;
+		margin:20px;
+		height:5vh;
+		width:17vw;
+	}
+}
+@media(min-width:996px){
+	.container{
+		margin-top:10%;
+	}
+	label{
+		font-size:3em;
+		font-weight:400;
+	}
+	#result{
+		height:13vh;
+		width:15vw;
+		font-size:10vh;
+		font-weight: 400;
+	}
+	button{
+		font-size:1.3em;
+		margin:15px;
+		height:6vh;
+		width:18vw;
+	}
+}
